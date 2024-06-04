@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d686bd; /* Pinkish Purple */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+#flashcard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flashcard {
+    width: 200px;
+    height: 150px;
+    background-color: #5a315c; /* Dark Purple */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#add-flashcard-btn,
+#start-quiz-btn,
+#submit-answer-btn {
+    padding: 10px 20px;
+    background-color: #5a315c; /* Dark Purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+#add-flashcard-btn:hover,
+#start-quiz-btn:hover,
+#submit-answer-btn:hover {
+    background-color: #452546; /* Darker Purple */
+}
+
+#quiz-container {
+    display: none;
+}
+
+#score {
+    margin-top: 20px;
+}
